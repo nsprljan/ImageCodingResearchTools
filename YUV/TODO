@@ -1,0 +1,11 @@
+-support for higher bit-depths in rgb2yuv.m and yuv2rgb.m
+-support for different YUV formats in different functions, e.g. divide_seq.m, yuv_range.m
+-YUV format paramter generator function, to avoid replicating code across functions (bit precision, Y, U and V frame sizes...)
+-function to combine 2 sequences (YUV interleave / merge)
+-Investigate these colour transform definitions:
+ 1) I709 (= Rec.709 coefficients)
+ 2) FCC (almost the same as Rec.601)
+ 3) I470 (= Rec.601 coefficients [an updated version of Rec.470-6, but coefficients are exactly the same])
+ 4) S170 (= SMPTE 170M; exactly the same as Rec.601)
+
+ 
