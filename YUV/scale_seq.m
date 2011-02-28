@@ -65,6 +65,9 @@ if (crop > -1)
 end;
 
 if (strcmp(type,'wav'))
+    if (exist('wavelet_downscale','file') ~= 2))
+        error('Type wav requires Wavelet toolbox function wavelet_downscale!');
+    end;
     wavelet_type = 'CDF_9x7'; %wavelet to be used for downscaling
     if (crop > -1)   
         yscale = crop(3) / outdims(1);
@@ -83,7 +86,13 @@ if (strcmp(type,'wav'))
         end;
     end;
 elseif (strcmp(type,'fir'))
+    if (exist('fir1','file') ~= 2))
+        error('Type fir requires Signal Processing Toolbox (TM) function fir1!');
+    end;
 elseif (strcmp(type,'imresize'))
+    if (exist('imresize','file') ~= 2))
+        error('Type imresize requires Image Processing Toolbox (TM) function imresize!');
+    end;    
 else
     error('Unsupported type of scaling');
 end;

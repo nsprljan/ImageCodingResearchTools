@@ -27,13 +27,17 @@ function numfrm=yuv2avi(yuvfilename,dims,avifilename,compression,fps,yuvformat)
 if (nargin < 6)
     yuvformat = 'YUV420_8';
 end;
+if (strcmp(yuvformat,'YUV420_8') && (exist('imresize','file') ~= 2))
+    error('For YUV420 subsampling yuv2avi requires Image Processing Toolbox (TM) function imresize!');
+end;
+
 numfrm = seq_frames(yuvfilename,dims);
 %sizfrm = prod(dims);
 avi = avifile(avifilename,'fps',fps,'quality',100,'colormap',gray(256),'compression',compression);
-for i=1:numfrm 
+for i=1:numfrm
     [Y, U, V] = yuv_import(yuvfilename,dims,1,i-1,yuvformat);
     yuv(:,:,1) = Y{1};
-    if (strcmp(yuvformat,'YUV420_8'))        
+    if (strcmp(yuvformat,'YUV420_8'))
         yuv(:,:,2) = imresize(U{1},2,'bicubic');
         yuv(:,:,3) = imresize(V{1},2,'bicubic');
     else

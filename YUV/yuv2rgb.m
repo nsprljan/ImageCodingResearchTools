@@ -45,6 +45,9 @@ end;
 if (nargin < 5)
     convmtrx = 'BT709_l';
 end;
+if (strcmp(yuvformat,'YUV420_8') && (exist('imresize','file') ~= 2))
+    error('For YUV420 subsampling yuv2rgb requires Image Processing Toolbox (TM) function imresize!');
+end;
 
 if strcmp(convmtrx,'BT601_f')
    load('BT601_f.mat','-mat');
