@@ -1,0 +1,53 @@
+%CDF_9x7 (Cohen-Daubechies-Feauveau wavelet)
+%
+%This biorthogonal wavelet filter bank is designed as a spline
+% variant with less dissimilar lengths.  Originally published by
+% Cohen et al., this filter bank has seen widespread use in
+% image-processing applications. Initially used by Antonini, et al.
+%
+%Different variants appear, with different signs and/or scaling, the 
+% most common one is where the low-pass filter coefficients are divided 
+% by sqrt(2) while the high-pass are multiplied by the same factor. The
+% one provided here ensures that DC and Nyquist gain are sqrt(2). 
+% Be aware of that when comparing to other sources!
+%
+%References:
+%
+%A. Cohen, I. Daubechies, J. C. Feauveau,
+% "Biorthogonal Bases of Compactly Supported Wavelets", 
+% Communications on Pure and Applied Mathematics, vol. 45, no. 5, pp. 485-560, May 1992.
+%
+%M. Antonini, M. Barlaud, P. Mathieu, I. Daubechies,
+% "Image Coding Using Wavelet Transform", 
+% IEEE Transactions on Image Processing, vol. 1, no. 2, pp. 205-220, April 1992.
+
+%wvf_type
+ SYMMETRIC_ODD
+%lift_coeff
+-1.586134342,-1.586134342
+-0.052980118,-0.052980118
+ 0.882911075, 0.882911075
+ 0.443506852, 0.443506852 
+%lift_norm
+ 1.149604398
+ 0.869864452
+%filt_H0 - symmetric
+-4, 0.03782845550726
+-3,-0.02384946501956
+-2,-0.11062440441844
+-1, 0.37740285561283
+ 0, 0.85269867900889
+ 1, 0.37740285561283
+ 2,-0.11062440441844
+ 3,-0.02384946501956
+ 4, 0.03782845550726
+%filt_H1 - symmetric
+-2, 0.06453888262870
+-1,-0.04068941760916
+ 0,-0.41809227322162
+ 1, 0.78848561640558
+ 2,-0.41809227322162
+ 3,-0.04068941760916
+ 4, 0.06453888262870
+%filt_G0 - can be deduced from filt_H1
+%filt_G1 - can be deduced from filt_H0

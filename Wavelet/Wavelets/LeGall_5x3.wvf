@@ -1,0 +1,30 @@
+%LeGall_5x3 
+%
+% H = (-1/2*x(-1) + x(0) - 1/2*x(1)) * (1 / sqrt(2))
+% L = (-1/8*x(-2) + 1/4*x(-1) + 3/4*x(0) + 1/4*x(1) - 1/8*x(2)) * sqrt(2)
+%    
+% Prediction    -> y(0)' = y(0) - 0.5 * (x(-1) + x(1))
+% Update        -> x(0)' = x(0) + 0.25 * (y(-1)' + y(1)')
+% Normalisation -> H  = y' * (1 / sqrt(2))
+%                  L  = x' *  sqrt(2)
+
+%wvf_type
+ SYMMETRIC_ODD
+%lift_coeff
+-0.5,-0.5
+ 0.25,0.25
+%lift_norm
+ 1.41421356237310
+ 0.70710678118655
+%filt_H0 - symmetric
+-2,-0.17677669529664
+-1, 0.35355339059327
+ 0, 1.06066017177982
+ 1, 0.35355339059327
+ 2,-0.17677669529664
+%filt_H1 - symmetric
+ 0,-0.35355339059327
+ 1, 0.70710678118655
+ 2,-0.35355339059327
+%filt_G0 - can be deduced from filt_H1
+%filt_G1 - can be deduced from filt_H0

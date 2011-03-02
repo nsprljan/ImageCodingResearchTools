@@ -1,0 +1,23 @@
+% Haar wavelet with the update step disabled
+%
+% H = (y - x) * (1 / sqrt(2))
+% L = x * sqrt(2)
+%
+% Prediction    -> y' = y - x
+% Normalisation -> H  = y' * (1 / sqrt(2))
+%                  L  = x' *  sqrt(2) = x *  sqrt(2) 
+
+%wvf_type
+ SYMMETRIC_ODD
+%lift_coeff
+-1.0,0.0
+%lift_norm
+ 1.41421356237310
+ 0.70710678118655
+%filt_H0 - no filtering performed, just normalisation
+ 0, 1.41421356237310
+%filt_H1 - antisymmetric
+ 0,-0.70710678118655
+ 1, 0.70710678118655
+%filt_G0 - can be deduced from filt_H1
+%filt_G1 - can be deduced from filt_H0

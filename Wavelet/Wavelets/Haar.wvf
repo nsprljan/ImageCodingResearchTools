@@ -1,0 +1,61 @@
+% Haar wavelet
+%
+% H = (y - x) * (1 / sqrt(2))
+% L = (x + y) * (1 / sqrt(2))
+%    
+% Prediction    -> y' = y - x  
+% Update        -> x' = x + 0.5 * y' = (x + y)/2 
+% Normalisation -> H  = y' * (1 / sqrt(2))
+%                  L  = x' *  sqrt(2) = sqrt(2) * x + H
+%      
+% |1  -1| |1    0||sqrt(2)      0|
+% |     | |      ||              |
+% |0   1| |0.5  1||0    1/sqrt(2)|
+
+%wvf_type
+ SYMMETRIC_EVEN
+%lift_coeff
+-1.0,0.0
+ 0.0,0.5 
+%lift_norm
+ 1.41421356237310
+ 0.70710678118655
+%filt_H0 - symmetric
+ 0, 0.70710678118655
+ 1, 0.70710678118655
+%filt_H1 - antisymmetric
+ 0,-0.70710678118655
+ 1, 0.70710678118655
+%filt_G0 - can be deduced from filt_H1
+%filt_G1 - can be deduced from filt_H0
+
+%Output of wavelet_check function
+% >> wavelet_check('Haar',3);
+% Analysis (decomposition) filters (H0 taps, H1 taps) = (2,2)
+% H0 taps = [0.70711 0.70711]
+% H1 taps = [-0.70711 0.70711]
+% H0 (DC,Nyquist) gain = (1.414214,0.000000) 
+% H1 (DC,Nyquist) gain = (0.000000,1.414214) 
+% 
+% Synthesis (reconstruction) filters (H0 taps, H1 taps) = (2,2)
+% H0 taps = [0.70711 0.70711]
+% H1 taps = [0.70711 -0.70711]
+% H0 (DC,Nyquist) gain = (1.414214,0.000000) 
+% H1 (DC,Nyquist) gain = (0.000000,1.414214) 
+% 
+% Orthogonality (test) = orthogonal (o)
+% H0/H1 L2 norms ratio = 1.000000
+% o/e reconstructed error energies ratio, (e,o) lattice = 1.000000
+%                                         (e,e) lattice = 1.000000
+% Orthonormality parameter = -0.000000
+% Vanishing moments (test) = (1,1)
+% Time-frequency localisation wavelet f. (t, w) = 1.149999 (0.500000, 2.299998)
+% Time-frequency localisation scaling f. (t, w) = 0.567901 (0.500000, 1.135802)
+% 
+% level  L2(G0)   L2(G1)   dBIBO(L) dBIBO(H) PCR(e,o)
+%  1     1.00000  1.00000  1.41421  1.41421  1.00000 ( 1.00 1.00 )
+%  2     1.00000  1.00000  1.41421  1.41421  1.00000 ( 1.00 1.00 1.00 1.00 )
+%  3     1.00000  1.00000  1.41421  1.41421  1.00000 ( 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 )
+% 
+% Mean energy of difference (lifting - convolution), low-pass = 0.000000, high-pass = 0.000000
+% Mean energy of difference to original, lifting = 0.000000, convolution = 0.000000
