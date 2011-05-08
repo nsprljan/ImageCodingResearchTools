@@ -1,6 +1,6 @@
 function [Arec,PSNR]=ezw(A,bpp,N,wavelet);
 %[Arec,PSNR]=ezw(A,bpp,N,wavelet) 
-%Version: 1.02, Date: 2005/04/30, author: Nikola Sprljan, Andrej Skenderovic
+%authors: Nikola Sprljan, Andrej Skenderovic
 %EZW (Embedded Zerotree Wavelet) image compression
 %
 % A - array containing the original image or its filename, or a test data

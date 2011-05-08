@@ -3,7 +3,6 @@ Zerotree Coding Toolbox
 
 Image compression based on wavelets, using zerotrees of wavelet coefficients. Uses [Wavelet](https://github.com/nsprljan/Matlab/tree/master/Wavelet) and [Quality Assessment](https://github.com/nsprljan/Matlab/tree/master/QualityAssessment) toolboxes. The SPIHT binaries required for function spspiht.m can be downloaded from the SPIHT image compression homepage, see below. 
 
-- - -
 
 Functions
 ---------
@@ -17,7 +16,6 @@ Functions
 
 DOS SPIHT binaries required for function spspiht.m can be found at [SPIHT image compression homepage](http://www.cipr.rpi.edu/research/SPIHT/spiht3.html). Here's [direct link](http://www.cipr.rpi.edu/research/SPIHT/EW_Code/SPIHT.zip) to the package. 
  
-- - -
  
 Examples
 --------

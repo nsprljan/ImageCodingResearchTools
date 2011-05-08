@@ -1,6 +1,5 @@
 function Y=dead_zone_q(X,qstep)
 %x = dead_zone_q(x,qstep)
-%Version: 1.00, Date: 2004/12/01, author: Nikola Sprljan
 %Quantisation with a dead-zone around zero 
 %
 %Input: 

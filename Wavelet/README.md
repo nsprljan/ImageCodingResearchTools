@@ -3,7 +3,6 @@ MATLAB Wavelet Toolbox
 
 Wavelet transform related functions specifically designed to be used as a tool for image/video compression. The core of the toolbox consists of one-dimensional (1D) wavelet analysis and synthesis functions. The separable decomposition of multidimensional signals is supported, building on the 1D analysis and synthesis functions. The special case of the 2D signal is given with separate functions, with option to perform either dyadic or wavelet packets decomposition. Several functions are dedicated to the computation of wavelet filter properties and their visualisation.
 
-- - -
 
 Functions
 ---------

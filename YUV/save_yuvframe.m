@@ -23,7 +23,7 @@ function [C,Y,U,V]=save_yuvframe(yuvfile,dims,frm,outimage)
 % C = save_yuvframe('foreman.yuv',[352 288],1,'foreman_1stframe.png');
 
 [Y, U, V] = yuv_import(yuvfile,dims,1,frm);
-[~,~,ext] = fileparts(outimage);
+[t1,t2,ext] = fileparts(outimage);
 C = [];
 if (isempty(ext))
     fid=fopen([outimage 'Y.raw'],'w');

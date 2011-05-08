@@ -57,8 +57,8 @@ end;
 %     end;
 % end;
 
-%set(0,'Units','pixels');
-%rd=get(0,'ScreenSize');
+set(0,'Units','pixels');
+rd=get(0,'ScreenSize');
 [rws,cls,ndms]=size(img);
 rws=scale*rws;
 cls=scale*cls;

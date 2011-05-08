@@ -1,6 +1,5 @@
 function [Arec,bitstream,PSNR]=spspiht(A,bpp,type)
 %[Arec,bitstream,PSNR]=spspiht(A,bpp,type)
-%Version: 3.10, Date: 2006/04/27, author: Nikola Sprljan
 %Script for batch execution of DOS SPIHT binaries 
 %
 %Input: 

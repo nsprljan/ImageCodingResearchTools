@@ -1,6 +1,5 @@
 function Drec_opt=pdf_opt(Drec,quantstep)
 % Drec_opt=pdf_opt(Drec,quantstep)
-% Version: 1.00, Date: 2004/01/01, author: Nikola Sprljan
 % Optimisation (pdf) of reconstructed values of quantised wavelet coefficients
 % 
 %Input: 

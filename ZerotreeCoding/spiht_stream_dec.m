@@ -1,6 +1,5 @@
 function [Arec,Drec]=spiht_stream_dec(bitstream);
-% [Arec,Drec] = spiht_stream_dec(bitstream);
-% Version: 1.02, Date: 2006/03/25, author: Nikola Sprljan
+% [Arec,Drec] = spiht_stream_dec(bitstream)
 % Performs decoding of the bitstream produced by spiht_wpackets.m
 % 
 %Input: 

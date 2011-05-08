@@ -1,6 +1,5 @@
 function [Arec,bitstream,PSNR,MSE,D,Drec,s,p_stream]=spiht_wpackets(A,bpp,wavelet,no_decomp,pkt_depth,dec_type,varargin)
 %[Arec,bitstream,PSNR,MSE,D,Drec,s,p_stream]=spiht_wpackets(A,bpp,wavelet,no_decomp,pkt_depth,dec_type,varargin)
-%Version: 3.13, Date: 2006/04/10, author: Nikola Sprljan
 %SPIHT image compression using Wavelet Packets (WP) decomposition
 %
 %Input: 

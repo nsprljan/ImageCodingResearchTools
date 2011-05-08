@@ -5,7 +5,6 @@ Scripts for manipulating YCbCr (also known as 'YUV') sequences.
 
 For comparing YUV sequences the Quality Assessment toolbox is required. For sequence rescaling and when rescaling chromas (e.g. conversion from 4:4:4 to 4:2:) Matlab Image Processing Toolbox function imresize is used. 
 
-- - -
 
 Functions
 ---------
@@ -25,7 +24,6 @@ Functions
  - **yuv_import** - Imports YUV sequence
  - **yuv_range** - Computes the range of samples in YUV sequence 
 
-- - -
   
 Examples
 --------
