@@ -1,0 +1,3 @@
+quantization=Qdefault.txt
+zig-zag=Zdefault.txt
+Huffman=Hdefault.txt

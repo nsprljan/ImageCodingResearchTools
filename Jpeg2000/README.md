@@ -1,7 +1,7 @@
 JPEG2000 Toolbox
 ================
 
-This toolbox provides a GUI front-end for executing the external JPEG2000 software (the java-based, not included in this package). Apart form the GUI, the script jpeg2000jj2k.m can be used for calling JJ2000 in the command line mode. The scripts for batch execution of the [JPEG 2000 Kakadu software](http://www.kakadusoftware.com/) are also provided (not included in this package). The only implementation of JJ2000 that currently can be found on the web is at [this link](http://anabuilder.free.fr/jj2000-5.1.jar). However, keep in mind this is not the original location, as the authors' location for dowload is not online any more ([original location](http://jj2000.epfl.ch/jj_download/index.html))
+A GUI front-end for executing the external JPEG2000 software (the java-based, not included in this package). Apart form the GUI, the script jpeg2000jj2k.m can be used for calling JJ2000 in the command line mode. The scripts for batch execution of the [JPEG 2000 Kakadu software](http://www.kakadusoftware.com/) are also provided (not included in this package). The only implementation of JJ2000 that currently can be found on the web is at [this link](http://anabuilder.free.fr/jj2000-5.1.jar). However, keep in mind this is not the original location, as the authors' location for dowload is not online any more ([original location](http://jj2000.epfl.ch/jj_download/index.html))
 
 Functions
 ---------
