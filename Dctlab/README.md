@@ -27,6 +27,6 @@ Examples
 
 DCT basis functions with **dctbasis**:
 
-  >> A=dctbasis(8,2);
+    >> A=dctbasis(8,2);
   
   ![DCT 8x8 basis](https://github.com/nsprljan/Matlab/raw/master/Dctlab/dct_8x8_basis.png)	  
