@@ -1,0 +1,10 @@
+ch_handle=@GE_awgn;
+parametar.EsN0=0;
+parametar.PGB=1/3600;
+parametar.PBG=1/400;
+parametar.BERg=0.0005;
+parametar.BERb=0.1;
+parametar.state=-1;
+parametar.Bch=128000;
+parametar.Nch=256;
+parametar.gain=0;

@@ -1,0 +1,79 @@
+1/1 =UNCODED
+[]
+Memory=0
+CodeGenerator=1
+PunctCode=1
+cd=1
+Matlab-> 0,1,'1'
+
+8/9
+[Hag88]
+Memory=6
+CodeGenerator=[133 171 145]
+PunctCode=f78800
+cd=[0,0,24,740,13321,217761,3315491,48278177]
+%Punctcode=[f7,88,00]=[1 1 1 1 0 1 1 1,1 0 0 0 1 0 0 0,0 0 0 0 0 0 0 0]
+
+4/5 = 8/10
+[Hag88]
+Memory=6
+CodeGenerator=[133 171 145]
+PunctCode=ff8800
+cd=[0,0,0,24,376,3464,30512,242734,1890790]
+%Punctcode=[ff,88,00]=[1 1 1 1 1 1 1 1,1 0 0 0 1 0 0 0,0 0 0 0 0 0 0 0]
+
+2/3 = 8/12
+[Hag88]
+Memory=6
+CodeGenerator=[133 171 145]
+PunctCode=ffaa00
+cd=[0,0,0,0,0,12,280,1140,5104,24640,108512]
+%Punctcode=[ff,aa,00]=[1 1 1 1 1 1 1 1,1 0 1 0 1 0 1 0,0 0 0 0 0 0 0 0]
+
+4/7 = 8/14
+[Hag88]
+Memory=6
+CodeGenerator=[133 171 145]
+PunctCode=ffee00
+cd=[0,0,0,0,0,0,12,74,386,1162,3542,11666]
+%Punctcode=[ff,ee,00]=[1 1 1 1 1 1 1 1,1 1 1 0 1 1 1 0,0 0 0 0 0 0 0 0]
+
+1/2 = 8/16
+[Hag88]
+Memory=6
+CodeGenerator=[133 171 145] 
+PunctCode=ffff00
+cd=[0,0,0,0,0,0,0,0,0,288,0,1688,0,11232]
+%Punctcode=[ff,ff,00]=[1 1 1 1 1 1 1 1,1 1 1 1 1 1 1 1,0 0 0 0 0 0 0 0]
+
+4/9 = 8/18
+[Hag88]
+Memory=6
+CodeGenerator=[133 171 145] 
+PunctCode=ffff88
+cd=[0,0,0,0,0,0,0,0,0,14,82,182,320,810,1882]
+%Punctcode=[ff,ff,88]=[1 1 1 1 1 1 1 1,1 1 1 1 1 1 1 1,1 0 0 0 1 0 0 0]
+
+2/5 = 4/10 = 8/20
+[Hag88]
+Memory=6
+CodeGenerator=[133 171 145] 
+PunctCode=ffffcc
+cd=[0,0,0,0,0,0,0,0,0,0,8,44,80,138,444,750]
+%Punctcode=[ff,ff,aa]=[1 1 1 1 1 1 1 1,1 1 1 1 1 1 1 1,1 1 0 0 1 1 0 0]
+
+4/11 = 8/22
+[Hag88]
+Memory=6
+CodeGenerator=[133 171 145]  
+PunctCode=ffffee
+cd=[0,0,0,0,0,0,0,0,0,0,0,2,16,70,90,172,474]
+%Punctcode=[ff,ff,ee]=[1 1 1 1 1 1 1 1,1 1 1 1 1 1 1 1,1 1 1 0 1 1 1 0]
+
+1/3 = 8/24
+[Hag88]
+Memory=6
+CodeGenerator=[133 171 145]  
+PunctCode=ffffff
+cd=[0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,160,0,424]
+%Punctcode=[ff,ff,ff]=[1 1 1 1 1 1 1 1,1 1 1 1 1 1 1 1,1 1 1 1 1 1 1 1]

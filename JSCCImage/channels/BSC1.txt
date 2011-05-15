@@ -1,0 +1,6 @@
+ch_handle=@BSC_BER;
+parametar.BER=1e-2;
+parametar.state=-1;
+parametar.Bch=128000;
+parametar.Nch=256;
+parametar.gain=0;

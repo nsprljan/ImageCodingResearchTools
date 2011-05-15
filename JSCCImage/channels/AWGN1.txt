@@ -1,0 +1,6 @@
+ch_handle=@awgn_EsN0;
+parametar.EsN0=-0.8556;
+parametar.state=-1;
+parametar.Bch=128000;
+parametar.Nch=256;
+parametar.gain=0;

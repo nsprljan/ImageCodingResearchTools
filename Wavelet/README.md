@@ -40,8 +40,8 @@ Multidimensional DWT:
  - **subband_dim** - Computes the subband dimensions for a specified number of decompositions
  - **dwt_dim** - DWT in specific dimension of multidimensional matrix
  - **idwt_dim** - DWT in specific dimension of multidimensional matrix
- - **dwt_dyadic_decomp** - Dyadic wavelet decomposition of a multidimensional signal
- - **idwt_dyadic_recon** - Dyadic wavelet reconstruction of a multidimensional signal
+ - **dwt\_dyadic_decomp** - Dyadic wavelet decomposition of a multidimensional signal
+ - **idwt\_dyadic_recon** - Dyadic wavelet reconstruction of a multidimensional signal
 
   
 Examples

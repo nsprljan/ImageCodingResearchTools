@@ -5,6 +5,7 @@ function setpaths
 fp = fileparts(which(mfilename));
 addpath([fp '\Dctlab']); 
 addpath([fp '\Jpeg2000']); 
+addpath([fp '\JSCCImage']); 
 addpath([fp '\QualityAssessment']); 
 addpath([fp '\Wavelet']); 
 addpath([fp '\YUV']); 

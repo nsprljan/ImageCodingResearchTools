@@ -1,0 +1,2 @@
+Directory to store the RCPC codes performances for channels defined in [Toolbox]\channels
+The script to be used to generate the RCPC characteristics is script_channel_performance.
