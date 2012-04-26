@@ -3,13 +3,16 @@ JPEG2000 Toolbox
 
 A GUI front-end for executing the external JPEG2000 software (the java-based, not included in this package). Apart form the GUI, the script jpeg2000jj2k.m can be used for calling JJ2000 in the command line mode. The scripts for batch execution of the [JPEG 2000 Kakadu software](http://www.kakadusoftware.com/) are also provided (not included in this package). The only implementation of JJ2000 that currently can be found on the web is at [this link](http://anabuilder.free.fr/jj2000-5.1.jar). However, keep in mind this is not the original location, as the authors' location for dowload is not online any more ([original location](http://jj2000.epfl.ch/jj_download/index.html))
 
+There is also this [Google code page](http://code.google.com/p/jj2000/), but you have to build the project yourself.
+
+
 Functions
 ---------
 
  - **jpeg2000gui** - GUI for Jpeg 2000 compression, calls jpeg2000jj2k
- - **jpeg2000jj2k** - Script that executes the JJ2000 java byte code (place the corresponding jar file in this toolbox directory)
- - **jpeg2000kakadu** - Frontend for the Kakadu JPEG 2000 compression (place the corresponding binaries under ./kakadu directory)
- - **jpeg2000kakadu_yuv** - Frontend for the Kakadu JPEG 2000 compression of video sequences in YUV format 
+ - **jpeg2000jj2k** - Wrapper for running the JJ2000 java byte code (instructions to download java byte code provided)
+ - **jpeg2000kakadu** - Wrappper for running the Kakadu JPEG 2000 binaries (instructions to download binaries provided)
+ - **jpeg2000kakadu_yuv** - Script for the Kakadu JPEG 2000 compression of video sequences in YUV format 
  
 Examples
 --------
@@ -74,4 +77,4 @@ Wrapper for JJ2000 java implementation of JPEG2000, **jpeg2000jj2k**:
    
 Screenshot of **jpeg2000gui**:
 
-  ![jpeg2000gui screenshot](https://github.com/nsprljan/Matlab/raw/master/Jpeg2000/Jpeg2000gui.png)	  
+  ![jpeg2000gui screenshot](https://github.com/nsprljan/ImageCodingResearchTools/raw/master/Jpeg2000/Jpeg2000gui.png)	  

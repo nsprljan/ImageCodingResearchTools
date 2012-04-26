@@ -1,5 +1,5 @@
 function [Arec,PSNR,bpp_out] = jpeg2000kakadu(image,bpp,decbpp,res,mode,inchead,varargin)
-%Frontend for the Kakadu JPEG 2000 compression
+%Wrappper for running the Kakadu JPEG 2000 binaries
 %[Arec,PSNR,bpp_out]=jpeg2000kakadu(image,bpp,decbpp,res,mode,inchead,varargin)
 %
 %Input: 
@@ -31,6 +31,7 @@ function [Arec,PSNR,bpp_out] = jpeg2000kakadu(image,bpp,decbpp,res,mode,inchead,
 % bpp_out - output bpp (when lower quality/resolution part is extracted 
 %           from the compressed bit stream) 
 %Note:
+% *WARNING* Place the required binaries under ./kakadu directory!
 % The location of the JPEG-2000 binaries is specified with the variable
 % 'binpath'. The other variables specify the binaries' filenames.
 % The expected YUV subsampling format is 4:2:0. 

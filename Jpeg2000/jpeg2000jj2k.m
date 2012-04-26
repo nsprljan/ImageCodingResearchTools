@@ -1,5 +1,5 @@
 function [Arec,PSNR]=jpeg2000jj2k(A,bpp,outf)
-%Script that executes the JJ2000 java byte code
+%Wrapper for running the JJ2000 java byte code
 %[Arec,PSNR]=jpeg2000jj2k(A,bpp,outf)
 %
 %Input: 
@@ -12,6 +12,7 @@ function [Arec,PSNR]=jpeg2000jj2k(A,bpp,outf)
 % Arec - reconstructed images as a cell variable 
 %
 %Note: 
+% *WARNING* Place the required jar file in this toolbox directory!
 % Colour images are supported. 
 % VJVM has to be installed on the machine, see e.g.: 
 % http://www.java.com/en/download/manual.jsp
