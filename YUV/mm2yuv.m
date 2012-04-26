@@ -1,5 +1,5 @@
 function mm2yuv(inputmm,outputyuv,yuvformat)
-%Converts multimedia file (including video) into raw YUV format
+%Converts video file into raw YCbCr format
 %mm2yuv(inputmm,outputyuv,yuvformat)
 %
 %Input:
