@@ -9,7 +9,6 @@ Functions
 
  - **iq_measures** - Image Quality Measures - various measures of reconstructed image quality
  - **image_show** - Displays image, with additional parameters
- - **pqs** - Script that runs software based on CIPIC PQS version 1 (Picture Quality Scale) image quality measure. Unzip the contents Pqs.zip into subdirectory .\Pqs to make the binary available to the script. The original  CIPIC PQS version 1 software has been modified so there is support for different block size (switch -b).
   
   
 Examples

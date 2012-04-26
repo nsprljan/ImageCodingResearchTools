@@ -114,29 +114,29 @@ Analysis and synthesis filter taps, orthogonality test, Perfect Recostruction (P
 	
 	>> scaling_fun('CDF_9x7',5,'d','plot');
 	
-![9x7 wavelet scaling function](https://github.com/nsprljan/Matlab/raw/master/Wavelet/CDF_9x7_scaling_analysis.png)
+![9x7 wavelet scaling function](https://github.com/nsprljan/ImageCodingResearchTools/raw/master/Wavelet/CDF_9x7_scaling_analysis.png)
 
 ### Wavelet filter taps ###
 Low pass filter taps, (scaling function with 0 iterations) with **scaling\_fun**:
 
 	>> scaling_fun('LeGall_5x3',0,'d');
 
-![5x3 wavelet h0 taps](https://github.com/nsprljan/Matlab/raw/master/Wavelet/LeGall_5x3_h0.png)	
+![5x3 wavelet h0 taps](https://github.com/nsprljan/ImageCodingResearchTools/raw/master/Wavelet/LeGall_5x3_h0.png)	
 
 ### Frequency and phase characteristic ###
 With **wavelet\_char**:
 
 	>> wavelet_char('CDF_9x7','CDF_9x7','d','plot');  
 
-![9x7 wavelet frequency characteristic](https://github.com/nsprljan/Matlab/raw/master/Wavelet/wavelet_9x7_char_freq.png)	
-![9x7 wavelet phase characteristic](https://github.com/nsprljan/Matlab/raw/master/Wavelet/wavelet_9x7_char_phase.png)
+![9x7 wavelet frequency characteristic](https://github.com/nsprljan/ImageCodingResearchTools/raw/master/Wavelet/wavelet_9x7_char_freq.png)	
+![9x7 wavelet phase characteristic](https://github.com/nsprljan/ImageCodingResearchTools/raw/master/Wavelet/wavelet_9x7_char_phase.png)
 
 ### 2D wavelet ###
 As a tensor product of 1D wavelets, with **wavelet2D**:
 
 	>> wavelet2D('LeGall_5x3',5,'d','l','l');
 
-![2D wavelet](https://github.com/nsprljan/Matlab/raw/master/Wavelet/2Dwavelet.png)		
+![2D wavelet](https://github.com/nsprljan/ImageCodingResearchTools/raw/master/Wavelet/2Dwavelet.png)		
 	
 ### Wavelet packet decomposition ###
 
@@ -147,10 +147,10 @@ As a tensor product of 1D wavelets, with **wavelet2D**:
 	
 Wavelet packet subband tree:
 
-![Wavelet packet subband tree](https://github.com/nsprljan/Matlab/raw/master/Wavelet/wavelet_packet_subband_tree.png)	
+![Wavelet packet subband tree](https://github.com/nsprljan/ImageCodingResearchTools/raw/master/Wavelet/wavelet_packet_subband_tree.png)	
 
 Wavelet packet transform coefficients:
 
-![Wavelet packet transform coefficients](https://github.com/nsprljan/Matlab/raw/master/Wavelet/Lena_transform_coefficients.jpg)
+![Wavelet packet transform coefficients](https://github.com/nsprljan/ImageCodingResearchTools/raw/master/Wavelet/Lena_transform_coefficients.jpg)
 
 	

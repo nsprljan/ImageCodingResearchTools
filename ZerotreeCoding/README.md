@@ -1,7 +1,7 @@
 Zerotree Coding Toolbox
 =======================
 
-Image compression based on wavelets, using zerotrees of wavelet coefficients. Uses [Wavelet](https://github.com/nsprljan/Matlab/tree/master/Wavelet) and [Quality Assessment](https://github.com/nsprljan/Matlab/tree/master/QualityAssessment) toolboxes. The SPIHT binaries required for function spspiht.m can be downloaded from the SPIHT image compression homepage, see below. 
+Image compression based on wavelets, using zerotrees of wavelet coefficients. Uses [Wavelet](https://github.com/nsprljan/ImageCodingResearchTools/tree/master/Wavelet) and [Quality Assessment](https://github.com/nsprljan/ImageCodingResearchTools/tree/master/QualityAssessment) toolboxes. The SPIHT binaries required for function spspiht.m can be downloaded from the SPIHT image compression homepage, see below. 
 
 
 Functions
@@ -21,7 +21,7 @@ Examples
 --------
 SPIHT algorithm flow-chart:
 
-  ![SPIHT algorithm flow-chart](https://github.com/nsprljan/Matlab/raw/master/ZerotreeCoding/SPIHT_flowchart.png)	
+  ![SPIHT algorithm flow-chart](https://github.com/nsprljan/ImageCodingResearchTools/raw/master/ZerotreeCoding/SPIHT_flowchart.png)	
   
 **spiht_wpackets** with dyadic DWT, as in the original SPIHT:  
 
