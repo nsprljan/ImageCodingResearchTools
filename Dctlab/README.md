@@ -23,10 +23,10 @@ Examples
 --------
 **dctlab** screenshot:
 
-  ![dctlab screenshot](https://github.com/nsprljan/Matlab/raw/master/Dctlab/DCTlab.png)	  
+  ![dctlab screenshot](https://github.com/nsprljan/ImageCodingResearchTools/raw/master/Dctlab/DCTlab.png)	  
 
 DCT basis functions with **dctbasis**:
 
     >> A=dctbasis(8,2);
   
-  ![DCT 8x8 basis](https://github.com/nsprljan/Matlab/raw/master/Dctlab/dct_8x8_basis.png)	  
+  ![DCT 8x8 basis](https://github.com/nsprljan/ImageCodingResearchTools/raw/master/Dctlab/dct_8x8_basis.png)	  
