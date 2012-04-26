@@ -1,7 +1,7 @@
 Joint Source-Channel Coding of Images Toolbox
 =============================================
 
-Simulation of transmission of SPIHT encoded images over unreliable channels, for instance wireless or packet-erasure channels. Requires the MATLAB Communications Toolbox. Note that some functions are undocumented.
+Simulation of transmission of SPIHT encoded images over unreliable channels. Requires the MATLAB Communications Toolbox. Scripts for measuring the channel error rate, RCPC code characteristics and Rate-Distortion (R-D) curve of the SPIHT compression for the input image and selected channel characteristics.
 
 Functions
 ---------
@@ -19,9 +19,6 @@ Functions
  - **send\_image\_equal_RS** - Transmission of SPIHT encoded image using EEP and Reed-Solomon protection
  - **optimal\_RCPC_unequal** - Computes the Unequal Error Protection (UEP) scheme for a given image and channel
  - **send\_image_unequal** - Transmission of SPIHT encoded image using UEP 
-
-Some scripts measure the channel error rate, RCPC code characteristics and Rate-Distortion (R-D) curve of the SPIHT compression on the particular image:
-
  - **script\_channel_performance** - Measures the BER and PER values for RCPC transmission on a given channel
  - **RDcurveBytePrec** - Runs SPIHT over range of target bitrates and stores the R-D curve 
   
@@ -79,9 +76,9 @@ Examples
 
     >> script_channel_performance(@RCPC_test_equal_packet,100000,16,'GE1');   
 
-![RCPC codes epsilon characteristic](https://github.com/nsprljan/Matlab/raw/master/JSCCImage/RCPC_ch_epsilon.png)	
+![RCPC codes epsilon characteristic](https://github.com/nsprljan/ImageCodingResearchTools/raw/master/JSCCImage/RCPC_ch_epsilon.png)	
 
-![RCPC codes ro characteristic](https://github.com/nsprljan/Matlab/raw/master/JSCCImage/RCPC_ch_ro.png)	
+![RCPC codes ro characteristic](https://github.com/nsprljan/ImageCodingResearchTools/raw/master/JSCCImage/RCPC_ch_ro.png)	
 
 **optimal\_RCPC_equal**:
 
@@ -100,5 +97,5 @@ Examples
     Minimal distortion RCPC code: 4/11
     PSNR: 30.491567
 
-![RCPC plots for AWGN1 and EEP](https://github.com/nsprljan/Matlab/raw/master/JSCCImage/AWGN1_RCPC.png)	
+![RCPC plots for AWGN1 and EEP](https://github.com/nsprljan/ImageCodingResearchTools/raw/master/JSCCImage/AWGN1_RCPC.png)	
 
