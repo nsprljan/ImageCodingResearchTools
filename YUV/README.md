@@ -3,7 +3,7 @@ MATLAB YUV Toolbox
 
 Functions for manipulation of YCbCr (also known as 'YUV') sequences. 
 
-For YUV sequences comparison the Quality Assessment toolbox is required. For sequence rescaling and when rescaling chromas (e.g. conversion from 4\:4\:4 to 4\:2\:2) Matlab Image Processing Toolbox function imresize is used. 
+For YUV sequences comparison the Quality Assessment toolbox is required. For sequence rescaling and when rescaling chromas (e.g. conversion from 4:4:4 to 4:2:2) Matlab Image Processing Toolbox function imresize is used. 
 
 
 Functions
@@ -24,6 +24,10 @@ Functions
  - **yuv_export** - Exports YUV sequence
  - **yuv_import** - Imports YUV sequence
  - **yuv_range** - Computes the range of samples in YUV sequence 
+ 
+Added:
+ - **yuv2avi_demosaic - Imports YUV sequence, performs demosaic of each frame and saves it as an AVI
+ - **yuv2seq_demosaic - Imports YUV sequence, performs demosaic of each frame and saves it as a sequence of images
 
   
 Examples
